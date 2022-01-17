@@ -1009,41 +1009,14 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactDom = require("react-dom");
 var _reactDomDefault = parcelHelpers.interopDefault(_reactDom);
+var _mainView = require("./componants/main-view/main-view");
+var _mainViewDefault = parcelHelpers.interopDefault(_mainView);
 // Import statement to indicate that you need to bundle `./index.scss`
 var _indexScss = require("./index.scss");
 // Main component (will eventually use all the others)
 class MyFlixApplication extends _reactDefault.default.Component {
     render() {
-        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-            className: "my-flix",
-            children: /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
-                children: [
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
-                        children: "MuVies Application"
-                    }, void 0, false, {
-                        fileName: "index.jsx",
-                        lineNumber: 13,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("hr", {
-                    }, void 0, false, {
-                        fileName: "index.jsx",
-                        lineNumber: 14,
-                        columnNumber: 11
-                    }, this),
-                    /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h6", {
-                        children: "Created by: Michael Gross"
-                    }, void 0, false, {
-                        fileName: "index.jsx",
-                        lineNumber: 15,
-                        columnNumber: 11
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "index.jsx",
-                lineNumber: 12,
-                columnNumber: 9
-            }, this)
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_mainViewDefault.default, {
         }, void 0, false, {
             fileName: "index.jsx",
             lineNumber: 11,
@@ -1061,7 +1034,7 @@ _reactDomDefault.default.render(/*#__PURE__*/ _reactDefault.default.createElemen
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"3jZUD","react":"4mchR","react-dom":"afyCw","./index.scss":"8PUXz","@parcel/transformer-js/src/esmodule-helpers.js":"jQVJk","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9OKjO"}],"3jZUD":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"3jZUD","react":"4mchR","react-dom":"afyCw","./index.scss":"8PUXz","@parcel/transformer-js/src/esmodule-helpers.js":"jQVJk","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9OKjO","./componants/main-view/main-view":"i9ZFO"}],"3jZUD":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
 
@@ -22957,6 +22930,60 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"hqqNT"}]},["cFcfU","cU2mP","difnT"], "difnT", "parcelRequire4c92")
+},{"react-refresh/runtime":"hqqNT"}],"i9ZFO":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e27a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$e27a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MainView", ()=>MainView
+);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+class MainView extends _reactDefault.default.Component {
+    render() {
+        return(/*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+            className: "main-view",
+            children: [
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: "Inception"
+                }, void 0, false, {
+                    fileName: "componants/main-view/main-view.jsx",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: "The Shawshank Redemption"
+                }, void 0, false, {
+                    fileName: "componants/main-view/main-view.jsx",
+                    lineNumber: 9,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ _jsxDevRuntime.jsxDEV("div", {
+                    children: "Gladiator"
+                }, void 0, false, {
+                    fileName: "componants/main-view/main-view.jsx",
+                    lineNumber: 10,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "componants/main-view/main-view.jsx",
+            lineNumber: 7,
+            columnNumber: 7
+        }, this));
+    }
+}
+
+  $parcel$ReactRefreshHelpers$e27a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"3jZUD","react":"4mchR","@parcel/transformer-js/src/esmodule-helpers.js":"jQVJk","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9OKjO"}]},["cFcfU","cU2mP","difnT"], "difnT", "parcelRequire4c92")
 
 //# sourceMappingURL=index.56ac4ff3.js.map
